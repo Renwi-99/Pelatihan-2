@@ -18,7 +18,7 @@ st.set_page_config(
 # Load ML pipeline
 @st.cache_resource
 def load_model():
-    return joblib.load("customer_churn_pipeline.joblib")
+    return joblib.load("heart.joblib")
 
 model = load_model()
 
