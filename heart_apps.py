@@ -91,7 +91,7 @@ with st.sidebar:
         "pipeline to estimate heart disease risk."
     )
 
-    st.caption("Version 1.0.1")
+    st.caption("Version 1.0.0")
 
 
 # ==========================================
@@ -134,7 +134,7 @@ if page == "Patient Assessment":
                 "Age (years)",
                 min_value=1,
                 max_value=120,
-                value=0
+                value=50
             )
 
         with col2:
