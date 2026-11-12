@@ -73,7 +73,7 @@ st.markdown("""
 # ==========================================
 
 with st.sidebar:
-    st.title("❤️ HeartCare Simulation")
+    st.title("❤️ HeartCare ❤️")
 
     st.caption("Machine Learning Prediction System")
 
@@ -91,7 +91,7 @@ with st.sidebar:
         "pipeline to estimate heart disease risk."
     )
 
-    st.caption("Version 1.0.0")
+    st.caption("Version 1.0.1")
 
 
 # ==========================================
@@ -134,7 +134,7 @@ if page == "Patient Assessment":
                 "Age (years)",
                 min_value=1,
                 max_value=120,
-                value=50
+                value=0
             )
 
         with col2:
