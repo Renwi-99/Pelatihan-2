@@ -73,7 +73,7 @@ st.markdown("""
 # ==========================================
 
 with st.sidebar:
-    st.title("❤️ HeartCare AI")
+    st.title("❤️ HeartCare Simulation")
 
     st.caption("Machine Learning Prediction System")
 
