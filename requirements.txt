@@ -1,0 +1,4 @@
+Scikit-learn: 1.9.1
+Joblib: 1.6.0
+NumPy: 1.26.4
+Pandas: 3.0.6
